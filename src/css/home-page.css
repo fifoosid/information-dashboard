@@ -19,6 +19,16 @@
     z-index: 0;
 }
 
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .buttons-wrapper {
     position: absolute;
     top: 0;
@@ -45,7 +55,7 @@
 
 .buttons-wrapper > a {
     min-width: 35%;
-    min-height: 4%;
+    min-height: 4.5%;
 }
 
 .btn-custom {
@@ -60,4 +70,10 @@
 @font-face {
     font-family: Exo-Regular;
     src: url('../fonts/Exo-Regular.ttf');
+}
+
+@media(max-width: 1200px) {
+    .buttons-wrapper > a {
+        min-width: 27em;
+    }
 }
