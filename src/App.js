@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import HomePage from './common-objects/home-page'
+import Excellence from './pages/excellence'
+import Taxes from './pages/taxes';
+
 class AppWrapper extends Component {
   render() {
     return(
@@ -18,6 +21,8 @@ class App extends Component {
     return (
       <Switch>
         <Route exact path='/' component={ HomePage } />
+        <Route exact path='/excellence' component={ Excellence } />
+        <Route exact path='/taxes' component={ Taxes } />
       </Switch>
     );
   }

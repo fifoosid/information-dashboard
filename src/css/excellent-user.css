@@ -1,0 +1,53 @@
+.card {
+    width: 20em;
+    height: 35em;
+
+    margin: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    align-content: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 65%;
+    background: url("https://randomuser.me/api/portraits/women/57.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.card-info {
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+
+}
+
+.card-info > h2, .card-info > h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.name {
+    text-align: center;
+}
+
+.card-info > span {
+    text-align: center;
+    margin: .2em;
+}
+
+.card-info  span:first-of-type {
+    margin-bottom: .5em;
+}

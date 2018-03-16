@@ -1,0 +1,18 @@
+.back-button {
+    width: 64px;
+    height: 64px;
+    background: url("/back_button.png") center center no-repeat;
+    background-size: contain
+}
+
+.back-button-link {
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+
+    border: 1px solid black;
+    border-radius: 50%;
+}

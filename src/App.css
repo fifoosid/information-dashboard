@@ -26,3 +26,20 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* Custom styles */
+
+.main-content {
+  /* background: linear-gradient(to bottom, white, #757F9A);#94979A */
+  background: linear-gradient(to bottom, white, #94979A);
+  padding-bottom: 15em;
+}
+
+.block {
+  display: block;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
